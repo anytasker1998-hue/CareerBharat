@@ -1,0 +1,20 @@
+:root { --saffron: #FF9933; --white: #FFFFFF; --green: #138808; --navy: #000080; }
+body { font-family: 'Arial', sans-serif; background: #f4f4f4; margin: 0; padding: 0; }
+header { background: var(--navy); color: white; text-align: center; padding: 20px; border-bottom: 5px solid var(--saffron); }
+.logo { font-size: 32px; font-weight: bold; }
+.logo span { color: var(--saffron); }
+.nav-buttons { display: flex; justify-content: center; gap: 10px; padding: 15px; background: #ddd; flex-wrap: wrap; }
+.btn-nav { text-decoration: none; padding: 10px 20px; font-weight: bold; border-radius: 5px; color: white; border: 1px solid rgba(0,0,0,0.1); }
+.btn-orange { background: var(--saffron); }
+.btn-green { background: var(--green); }
+.btn-navy { background: var(--navy); }
+.container { max-width: 1000px; margin: 20px auto; padding: 0 10px; }
+.ad-slot { background: white; border: 1px dashed #bbb; height: 90px; margin: 10px 0; display: flex; align-items: center; justify-content: center; text-align: center; transition: 0.5s; }
+.table-box { background: white; border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px; }
+.table-title { background: var(--navy); color: white; padding: 10px; font-weight: bold; text-align: center; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #ddd; padding: 12px; text-align: left; font-size: 14px; }
+th { background: #f8f8f8; }
+tr:hover { background: #fff8e1; }
+.view-btn { background: var(--green); color: white; text-decoration: none; padding: 5px 10px; border-radius: 4px; font-size: 12px; }
+footer { background: #222; color: white; text-align: center; padding: 20px; margin-top: 40px; }
